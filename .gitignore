@@ -1,3 +1,6 @@
+# Output
+**/dist
+
 # Dependecies
 **/node_modules/
 **/bun.lock/

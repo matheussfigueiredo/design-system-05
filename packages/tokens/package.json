@@ -1,0 +1,33 @@
+{
+  "name": "@steamd/tokens",
+  "version": "1.0.0",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "tsup": "^8.5.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "keywords": [
+    "design-tokens",
+    "design-system",
+    "tokens",
+    "colors",
+    "typography",
+    "font-sizes",
+    "font-weights",
+    "line-height",
+    "radii",
+    "spacing",
+    "ui",
+    "theme"
+  ],
+  "author": "devmatolo <letmat.contact@gmail.com>",
+  "license": "ISC"
+}
