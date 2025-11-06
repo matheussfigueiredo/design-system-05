@@ -145,4 +145,6 @@ export const colors = {
   secondaryLight: '#333333',
   secondary: '#444444',
   secondaryDark: '#EAEAEA',
+
+  transparent: 'transparent',
 }
