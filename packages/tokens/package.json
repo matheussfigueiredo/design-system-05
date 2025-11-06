@@ -1,15 +1,17 @@
 {
   "name": "@olympic-ui/tokens",
   "version": "1.0.0",
-  "module": "index.ts",
-  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts",
     "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "tsup": "^8.5.0"
+    "tsup": "^8.5.0",
+    "@olympic-ui/ts-config": "*"
   },
   "peerDependencies": {
     "typescript": "^5"
@@ -29,5 +31,5 @@
     "theme"
   ],
   "author": "devmatolo <letmat.contact@gmail.com>",
-  "license": "ISC"
+  "license": "MIT"
 }
