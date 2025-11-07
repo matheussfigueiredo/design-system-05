@@ -1,0 +1,9 @@
+{
+  "extends": "@olympic-ui/ts-config/react.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "moduleResolution": "NodeNext",
+    "module": "nodenext",
+    "jsx": "react-jsx"
+  }
+}
