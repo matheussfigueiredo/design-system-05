@@ -1,0 +1,4 @@
+{
+  "extends": "@olympic-ui/ts-config/react.json",
+  "include": ["src"]
+}
