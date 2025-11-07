@@ -11,6 +11,15 @@
     "rules": {
       "performance": {
         "noBarrelFile": "off"
+      },
+      "style": {
+        "useConsistentTypeDefinitions": "off"
+      },
+      "a11y": {
+        "noSvgWithoutTitle": "off"
+      },
+      "suspicious": {
+        "noShadowRestrictedNames": "off"
       }
     }
   }
